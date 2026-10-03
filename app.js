@@ -4,7 +4,10 @@ const app = express()
 app.get('/greeting',(req,res)=> {
     res.send("How are you Akshay boss")
 })
-
+//users/akshay
+app.get('/users/akshay',(req,res)=> {
+    res.send("Akshay is greeting meeting you")
+})
 app.get('/hello-hello',(req,res)=> {
     res.send("Nice meeting you")
 })
